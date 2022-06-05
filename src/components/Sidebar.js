@@ -132,18 +132,19 @@ const Sidebar = () => {
 					className="hov"
 					style={{
 						padding: "40px 40px",
-						fontSize: "20px",
+						fontSize: "16px",
 						fontWeight: "500",
 						lineHeight: "28px",
 					}}
 				>
-					<BsBarChartFill /> Dashboard
+					<BsBarChartFill />
+					 Dashboard
 				</div>
 				<div
 					className="hov-2"
 					style={{
 						padding: "40px 40px",
-						fontSize: "20px",
+						fontSize: "16px",
 						fontWeight: "500",
 						lineHeight: "28px",
 					}}
@@ -154,7 +155,7 @@ const Sidebar = () => {
 					className="hov-1"
 					style={{
 						padding: "40px 40px",
-						fontSize: "20px",
+						fontSize: "16px",
 						fontWeight: "500",
 						lineHeight: "28px",
 					}}
