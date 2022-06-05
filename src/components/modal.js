@@ -1,5 +1,5 @@
 import { Button, Modal } from "react-bootstrap";
-import './sidebar.css'
+import "./sidebar.css";
 function MyVerticallyCenteredModal(props) {
 	return (
 		<Modal
@@ -43,6 +43,7 @@ function MyVerticallyCenteredModal(props) {
 							</span>
 						</div>
 						<input
+							defaultValue={12890}
 							style={{
 								border: "1px solid #142683",
 								color: "#142683",
@@ -82,6 +83,7 @@ function MyVerticallyCenteredModal(props) {
 							</span>
 						</div>
 						<input
+                        defaultValue={37}
 							style={{
 								border: "1px solid #142683",
 								color: "#142683",
@@ -122,6 +124,7 @@ function MyVerticallyCenteredModal(props) {
 							</span>
 						</div>
 						<input
+                        defaultValue={7}
 							style={{
 								border: "1px solid #142683",
 								color: "#142683",
@@ -135,14 +138,16 @@ function MyVerticallyCenteredModal(props) {
 			</Modal.Body>
 			<Modal.Footer>
 				<button
-					// variant="outline-primary" 
-                    className="btn-hov"
+					// variant="outline-primary"
+					className="btn-hov"
 					// style={{ outline: "#142683", color: "#142683" }}
 					onClick={props.onHide}
 				>
 					Cancel
 				</button>
-				<button className="save" onClick={props.onHide}>Save</button>
+				<button className="save" onClick={props.onHide}>
+					Save
+				</button>
 			</Modal.Footer>
 		</Modal>
 	);
