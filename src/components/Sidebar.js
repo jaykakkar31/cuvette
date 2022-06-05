@@ -441,7 +441,7 @@ const Sidebar = () => {
 					// flexDirection: "column",
 					width: "30%",
 					// height:"100%",
-					marginTop: "93px",
+					marginTop: "80px",
 					marginRight: "30px",
 					// padding: "40px 30px 0 30px",
 					// borderRadius: "10px",
