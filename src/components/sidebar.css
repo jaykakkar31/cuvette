@@ -1,0 +1,63 @@
+.item-bar {
+	width: calc(100% - 145px);
+	height: 10px;
+	border-radius: 50px;
+
+	overflow: hidden;
+	/* position: relative; */
+}
+.bar-line {
+	height: 100%;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.percentage {
+	font-weight: 700;
+}
+
+.hov:hover {
+	color: #445ee2;
+    cursor: pointer;
+}
+
+.hov-1:hover {
+	color: #445ee2;
+        cursor: pointer;
+
+}
+
+.hov-2:hover {
+	color: #445ee2;
+        cursor: pointer;
+
+}
+
+.btn-hov{
+    cursor: pointer;
+    padding: "20px 30px";
+    border: "1px solid ";
+    
+    width: 100px;
+    height: 40px;
+        background: #fff;
+            outline: #142683;
+            color: #142683;
+
+
+}
+.save{
+     width: 100px;
+    height: 40px;
+    color: #fff;
+    background: #142683;
+    outline: none;
+    border: 0;
+}
+/* #btn-hov:hover{
+     color: "#142683";
+
+    
+} */
